@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    font-size: 1rem;
+    transition: background-color 1000ms linear;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width: 15rem;
+    background-image: url("background-panel-lm.png");
+    background-size: cover;
+    border: 3px solid black;
+}
+
+#color-button {
+    padding: 5px;
+    margin: 10px;
+}
+
+#color-input {
+    width: 5 rem;
+    text-align: center;
+}
